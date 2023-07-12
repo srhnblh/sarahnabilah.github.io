@@ -1,0 +1,180 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+}
+.banner {
+        width: 100%;
+        height: 100vh;
+        background-image: url("Photos/NASA.jpg");
+        background-size: cover;
+        background-position: Center;
+}
+.navbar {
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.logo {
+        width: 120px;
+}
+.navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+}
+.navbar ul li a {
+        text-decoration: none;
+        color: #e4e4dc;
+        text-transform: uppercase;
+}
+.navbar ul li ::after {
+        content: '';
+        height: 3px;
+        width: 0;
+        background:#614f45;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+}
+.navbar ul li :hover:after {
+        width: 100%;
+}
+.content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #e4e4dc;
+}
+.content h1 {
+        font-size: 65px;
+        margin-top: 80px;
+}
+.content p { 
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;       
+}
+button {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #ffffff;
+        background: transparent;
+        color: #e4e4dc;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+}
+span {
+        background: #614f45;
+        height: 100%;
+        width: 0;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+}
+button:hover span {
+        width: 100%;
+}
+button:hover {
+        border: none;
+}
+/* About me section */
+.bcg {
+        width: 100%;
+        background-color: #000000;
+}
+.about {
+        width: 100%;
+        padding: 100px 0px;
+        background-color: #000000;
+} 
+.about img {
+        height: auto;
+        width: 430px;
+}
+.about-text {
+        width: 550px;
+}
+.main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+.about-text h3 {
+        color:#97867c;
+        font-size: 75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+}
+.about-text p {
+        color:#ffffff;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+}
+/* personal section */
+.personal {
+        background-image: url(Photos/starry-sky-stars-black-glitter-wallpaper-preview.jpg);
+        width: 100%;
+        padding: 100px 0px;
+}
+.title h3 {
+        color:#ffffff;
+        font-size: 60px;
+        width: 1130px;
+        margin: 30px auto;
+        text-align: center;
+}
+.box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+}
+.card {
+        height: 279px;
+        width: 279px;
+        padding: 20px 35px;
+        background:#e4e4dc;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+}
+h5 {
+        color:#614f45;
+        font-size: 23px;
+        margin-bottom: 15px;
+}
+.pra {
+        color:#000000;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+}
+
+
+
+
+
+        

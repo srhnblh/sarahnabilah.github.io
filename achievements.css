@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #e4e4dc;
+    text-transform: uppercase;
+}
+.navbar ul li ::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#614f45;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover:after {
+    width: 100%;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Photos/Dark\ Night\ Mountains\ Minimalist\ 4k\ Wallpapers\ _\ hdqwalls_com.jpeg);
+    background-size: cover;
+    background-position: Center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 200px;
+    width: 279px;
+    background:#e4e4dc;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+h5 {
+    color:#614f45;
+}
+.cert {
+    width: 150px;
+    height: 90px;
+    margin: 30px auto;
+    align-items: center;
+    display: block; 
+}
+.bureu {
+    width: 80px;
+    height: 100px;
+    margin: 30px auto;
+    align-items: center;
+    display: block;
+}
